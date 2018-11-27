@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dish3">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonplay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Play Video" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonplay3"
+        android:layout_alignEnd="@+id/buttonplay3"
+        android:text="Ingredients :Black Pepper\nBesan,Cardamom,Cinnamon\nCloves,Coriander\nCoriander Leaves,Cumin Seeds\nGaram Masala,Ghee,Ginger,Kasuri\nMethi,Oil,Onion,Paneer,Red Chilli\nPowder,Salt,Tomato,Turmeric Powder "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/button"
+        android:text="Paneer Masala"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="backtoOption"
+        android:text="Go Back For New Search" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="145dp"
+        android:layout_height="158dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/paneermasala" />
+
+</RelativeLayout>

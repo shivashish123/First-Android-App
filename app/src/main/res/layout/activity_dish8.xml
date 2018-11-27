@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dish8">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/button"
+        android:text="Mix Veg"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="backtoOption"
+        android:text="Go Back For New Search" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="Ingredients :Amchoor Powder\nBay Leaf,Beans,Black Pepper\nCapsicum,Carrot,Cauliflower\nChana Dal,Coconut,Coconut Milk\nCoriander,Corn Flour,Cumin Seeds\nCurry Leaves,Dry Red Chilli,Garam Masala,Ginger Garlic Paste,Green Chilli,Mustard Seeds,Oil,Onion,Paneer,Potato,Red Chilli Powder,Salt,Sambhar Masala,Sugar,Tomato,Urad Dal"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="15dp" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/buttonplay8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Play Video" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="122dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/mixveg" />
+</RelativeLayout>

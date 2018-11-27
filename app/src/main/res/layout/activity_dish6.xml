@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dish6">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="13dp"
+        android:text="Butter Paneer Masala"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="backtoOption"
+        android:text="Go Back For New Search" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="216dp"
+        android:layout_height="128dp"
+        android:layout_above="@+id/buttonplay6"
+        android:layout_alignStart="@+id/textView"
+        android:text="Ingredients:Butter,Bay Leaf,Cardamom,Cashewnuts\nCoriander Leaves\nCorn Flour,Garam Masala\nGhee,Ginger Garlic Paste\nGreen Chili,Kasoori Methi\nMilk,Paneer,Red Chilli\nPowder,Salt,Tomato"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="15dp" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonplay6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Play Video" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="151dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/butterpaneermasala" />
+
+</RelativeLayout>

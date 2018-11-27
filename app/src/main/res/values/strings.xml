@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Foodie</string>
+
+    <string-array name="ing">
+        <item>Ajwain</item>
+        <item>Amchoor </item>
+        <item>Amchoor Powder</item>
+        <item>Bay Leaf</item>
+        <item>Beans</item>
+        <item>Besan</item>
+        <item>Black Pepper</item>
+        <item>Breadcrumbs</item>
+        <item>Butter</item>
+        <item>Cardamom</item>
+        <item>Carrot</item>
+        <item>Capsicum</item>
+        <item>Cashewnuts</item>
+        <item>Cauliflower</item>
+        <item>Chat Masala</item>
+        <item>Chana Dal</item>
+        <item>Chicken</item>
+        <item>Chilli Powder</item>
+        <item>Cinnamon</item>
+        <item>Cloves</item>
+        <item>Coconut</item>
+        <item>Coconut Milk</item>
+        <item>Coriander</item>
+        <item>Coriander Leaves</item>
+        <item>Coriander Powder</item>
+        <item>Corn Flour</item>
+        <item>Cream</item>
+        <item>Cumin Powder</item>
+        <item>Cumin Seeds</item>
+        <item>Curd</item>
+        <item>Curry Leaves</item>
+        <item>Curry Powder</item>
+        <item>Dry Red Chilli</item>
+        <item>Garam Masala</item>
+        <item>Garlic</item>
+        <item>Garlic Cloves</item>
+        <item>Garlic Paste</item>
+        <item>Ghee</item>
+        <item>Ginger</item>
+        <item>Ginger Garlic Paste</item>
+        <item>Green Chilli</item>
+        <item>Ground Ginger</item>
+        <item>Jeera</item>
+        <item>Kasuri Methi</item>
+        <item>Lemon</item>
+        <item>Maida</item>
+        <item>Mustard Seeds</item>
+        <item>Maida paste</item>
+        <item>Milk</item>
+        <item>Mustard Oil</item>
+        <item>Oil</item>
+        <item>Onion</item>
+        <item>Paneer</item>
+        <item>Pea</item>
+        <item>Pepper</item>
+        <item>Potato</item>
+        <item>Red Chilli</item>
+        <item>Red Chilli Powder</item>
+        <item>Rice</item>
+        <item>Salt</item>
+        <item>Sambhar Masala</item>
+        <item>Soya</item>
+        <item>Sugar</item>
+        <item>Tamarind juice</item>
+        <item>Tomato</item>
+        <item>Turmeric</item>
+        <item>Turmeric Powder</item>
+        <item>Urad Dal</item>
+        <item>Vegetable Oil</item>
+        <item>Vinegar</item>
+    </string-array>
+</resources>

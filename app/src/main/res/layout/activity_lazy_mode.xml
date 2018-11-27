@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LazyMode">
+    <AutoCompleteTextView
+        android:id="@+id/input_lazy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="300dp"
+        android:hint="Enter the ingredients" />
+
+    <Button
+        android:id="@+id/addbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/input_lazy"
+        android:layout_marginTop="73dp"
+        android:onClick="adding2"
+        android:text="Add ingredients" />
+
+    <Button
+        android:id="@+id/searchbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/input_lazy"
+        android:layout_alignTop="@+id/addbutton2"
+        android:onClick="search2"
+        android:text="Search For Dish" />
+
+    <ListView
+        android:id="@+id/myListView2"
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="193dp"
+        android:text="myListView" />
+</RelativeLayout>

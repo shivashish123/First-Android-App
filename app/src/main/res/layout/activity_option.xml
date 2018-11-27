@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:noHistory="true"
+    android:layout_height="match_parent"
+    tools:background="@android:color/holo_blue_bright"
+    tools:context=".Option">
+
+    <ImageButton
+        android:id="@+id/activeButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:onClick="active"
+        app:srcCompat="@drawable/active" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Note: In 'Active Mode', some ingredients in the dish will be different from given ingredients."
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/lazyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:onClick="lazy"
+        app:srcCompat="@drawable/lazy" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lazyButton"
+        android:layout_centerHorizontal="true"
+        android:text="Note: In 'Lazy Mode', all ingredients in the dish will be same as given ingredients"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18dp" />
+
+</RelativeLayout>
